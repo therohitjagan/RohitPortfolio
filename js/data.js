@@ -19,7 +19,7 @@ const portfolioData = {
         {
             title: "Google's Gemini with Kotlin Simple App",
             description: "How to integrate Google's Gemini into your Android application using Kotlin in this comprehensive step-by-step guide!",
-            image: "/img/gemini.jpg",
+            image: "img/gemini.jpg",
             demo: "https://github.com/therohitjagan/GeminiAI_DEMO",
             github: "https://github.com/therohitjagan/GeminiAI_DEMO",
             technologies: ["Kotlin", "Android","Gemini API"],
@@ -49,7 +49,7 @@ const portfolioData = {
         {
             title: "Infinitytoolspace: Web based useful tools",
             description: "Created an easy-to-use platform for everyone to access robust tools for productivity and problem-solving.",
-            image: "/img/infinitytoolspace.jpg",
+            image: "img/infinitytoolspace.jpg",
             demo: "https://infinitytoolspace.vercel.app/",
             github: "https://github.com/therohitjagan/Infinitytoolspace",
             technologies: ["HTML", "Tailwind CSS", "JS", "Boostrap", "Fontawesome"],
