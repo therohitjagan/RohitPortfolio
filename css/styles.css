@@ -292,3 +292,30 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   }
+
+  /* Mobile menu animations */
+.mobile-menu {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transform-origin: top;
+}
+
+.mobile-menu.hidden {
+    display: none;
+    transform: scaleY(0);
+    opacity: 0;
+}
+
+.mobile-menu:not(.hidden) {
+    display: block;
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+/* Mobile menu button transition */
+.mobile-menu-btn i {
+    transition: transform 0.3s ease;
+}
+
+.mobile-menu-btn i.fa-times {
+    transform: rotate(180deg);
+}
