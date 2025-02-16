@@ -65,7 +65,7 @@ const portfolioData = {
             title: "Toolify: The ultimate tool app ",
             description: "The multi-functional Android app built with Java, offering tools like a calculator, loan calculator, TTS, STT and much more.",
             image: "img/toolify.png",
-            demo: "https://github.com/therohitjagan/Toolify",
+            demo: "https://github.com/therohitjagan/Toolify/releases/tag/v1.0",
             github: "https://github.com/therohitjagan/Toolify",
             technologies: ["Android", "Java"],
             featured: true,
